@@ -1,0 +1,38 @@
+.agency-section {
+  background: #f0fff580;
+  padding: 80px 0;
+  position: relative;
+  text-align: center;
+  .section-title {
+    color: #00ad37;
+    color: #00ad37;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    li {
+      box-shadow: 0px 4px 35px 2px #0000001a;
+      padding: 8px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      img {
+        height: 50px;
+      }
+    }
+  }
+}

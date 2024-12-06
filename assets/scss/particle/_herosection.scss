@@ -1,0 +1,48 @@
+.hero-section {
+  background-image: url("../../../assets/images/hero-bg.gif");
+  position: relative;
+  height: calc(100vh - 60px);
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, #02131d, transparent);
+  }
+  h1 {
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5019607843);
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    @media screen and (max-width: 991px) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 26px;
+    }
+    span {
+      font-weight: 200;
+      display: block;
+      font-size: 31px;
+      @media screen and (max-width: 991px) {
+        font-size: 24px;
+      }
+      @media screen and (max-width: 520px) {
+        font-size: 18px;
+      }
+    }
+  }
+  .explore-btn {
+    background-color: #00ad37;
+    color: #ffffff;
+    padding: 8px 36px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+}
