@@ -1,0 +1,38 @@
+.services-hero-section {
+  background-image: url("../../../../assets/images/services-pg/hero-bg.png");
+  position: relative;
+  height: calc(100vh - 60px);
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+  //     inset: 0;
+  //     background: linear-gradient(45deg, #02131d, transparent);
+  //   }
+
+  .content-block {
+    background: linear-gradient(240.77deg, #d7ffe4 -2.31%, #dde1ff 71.55%);
+    padding: 1rem;
+    border-radius: 2rem;
+    max-width: 60rem;
+    margin: auto;
+    .content-box {
+      background: #ffffff80;
+      border-radius: 1.2rem;
+      margin: 0;
+      padding: 2rem 1rem;
+      h1 {
+        color: #00ad37;
+        font-weight: 600;
+        font-size: 1.9rem;
+        letter-spacing: 0.1rem;
+      }
+      p {
+        color: #000;
+        letter-spacing: 0.05rem;
+      }
+    }
+  }
+}

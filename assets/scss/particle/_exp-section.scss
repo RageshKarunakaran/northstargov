@@ -20,4 +20,37 @@
     margin-bottom: 50px;
     letter-spacing: 0.5px;
   }
+  .card-box {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(2deg, #000000db, transparent);
+      border-radius: 16px;
+      z-index: 1;
+    }
+    .content-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      padding: 12px;
+      h6 {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0;
+      }
+      img {
+        height: 28px;
+      }
+    }
+  }
 }
